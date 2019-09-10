@@ -28,6 +28,6 @@ const recursionExercises = {
     return recursionExercises.swap(arr1, arr2)
   }
 }
-recursionExercises.reverseString("race car")
+
 /* DO NOT REMOVE THE EXPORTS BELOW */
 module.exports = recursionExercises
