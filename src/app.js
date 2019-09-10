@@ -37,3 +37,6 @@ const swap = function (arr1, arr2) {
 swap(arr1, arr2)
 console.log(arr1) //[]
 console.log(arr2) //[1, 2, 3]
+
+/* DO NOT REMOVE THE EXPORTS BELOW */
+module.exports = { findFactorial, reverseString, swap }
