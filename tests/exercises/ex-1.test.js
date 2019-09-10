@@ -8,6 +8,6 @@ describe('Exercise 1', function () {
         const result = factorial(param)
 
         expect(result, `the function did not return the correct value, when passing ${param} to the function expected ${expectedResult} got  ${result}`).toBe(expectedResult)
-        expect(factorial).toHaveBeenCalledTimes(param)
+        expect(factorial, `function must be called ${param} times`).toHaveBeenCalledTimes(param)
     })
 } )
