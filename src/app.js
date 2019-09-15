@@ -3,29 +3,23 @@
   Please note: You must also add the correct arguments to the methods
 */
 
+//Exercise 1
+const findFactorial = function() {
+  //Your code here
 
-const recursionExercises = {
-  //Exercise 1
-  findFactorial: function () {
-    //Your code here
+}
 
-    return recursionExercises.findFactorial()
-  },
+//Exercise 2
+const reverseString = function() {
+  //Your code here
 
-  //Exercise 2
-  reverseString: function () {
-    //Your code here
+}
 
-    return recursionExercises.reverseString()
-  },
+//Exercise 3
+const swap = function() {
+  //Your code here
 
-  //Exercise 3
-  swap: function () {
-    //Your code here
-
-    return recursionExercises.swap()
-  }
 }
 
 /* DO NOT REMOVE THE EXPORTS BELOW */
-module.exports = recursionExercises
+module.exports = { findFactorial, reverseString, swap }
